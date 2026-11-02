@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: bf5c513f814733746931ec7f9326c6d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7501451865384100230
+    second: monastery ui_0
+  - first:
+      213: 8966988357348234355
+    second: monastery ui_1
+  - first:
+      213: -3146422986149549553
+    second: monastery ui_2
+  - first:
+      213: -4409758554439573664
+    second: monastery ui_3
+  - first:
+      213: -2405403887622049077
+    second: monastery ui_4
+  - first:
+      213: 2044552216012435901
+    second: monastery ui_5
+  - first:
+      213: -6347817974682191072
+    second: monastery ui_6
+  - first:
+      213: 3919640183128661427
+    second: monastery ui_7
+  - first:
+      213: -8691289711270423657
+    second: monastery ui_8
+  - first:
+      213: 7191675071214118136
+    second: monastery ui_9
+  - first:
+      213: 5601777641386736499
+    second: monastery ui_10
+  - first:
+      213: -5001614273337133135
+    second: monastery ui_11
+  - first:
+      213: -8422035848928620019
+    second: monastery ui_12
+  - first:
+      213: -7021913672194845066
+    second: monastery ui_13
+  - first:
+      213: 7538869745187650805
+    second: monastery ui_14
+  - first:
+      213: 1258267641096316064
+    second: monastery ui_15
+  - first:
+      213: 3765508616605580933
+    second: monastery ui_16
+  - first:
+      213: -6720510309481949477
+    second: monastery ui_17
+  - first:
+      213: 7305536270426479326
+    second: monastery ui_18
+  - first:
+      213: -8691359709489674
+    second: monastery ui_19
+  - first:
+      213: 2070869503188448198
+    second: monastery ui_20
+  - first:
+      213: -6905548730025308405
+    second: monastery ui_21
+  - first:
+      213: 78345602784739862
+    second: monastery ui_22
+  - first:
+      213: 3319419610254084122
+    second: monastery ui_23
+  - first:
+      213: -4751306424535421705
+    second: monastery ui_24
+  - first:
+      213: -359954963349362579
+    second: monastery ui_25
+  - first:
+      213: -3356259706644790970
+    second: monastery ui_26
+  - first:
+      213: -3132448515254835534
+    second: monastery ui_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monastery ui_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1125
+        width: 979
+        height: 923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ed618d54d75e790800000000000000
+      internalID: -7501451865384100230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_1
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2035
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3741ec0e664217c70800000000000000
+      internalID: 8966988357348234355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_2
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 2035
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aae6de6f8a554d0800000000000000
+      internalID: -3146422986149549553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_3
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 2028
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f936965f36dc2c0800000000000000
+      internalID: -4409758554439573664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_4
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2019
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2b1f898e94e9ed0800000000000000
+      internalID: -2405403887622049077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_5
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 2019
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1b8207865bf5c10800000000000000
+      internalID: 2044552216012435901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_6
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1439
+        width: 429
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b7a382f2508e7a0800000000000000
+      internalID: -6347817974682191072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_7
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2003
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd1bbabafb556630800000000000000
+      internalID: 3919640183128661427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_8
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1525
+        width: 429
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79318b75e06526780800000000000000
+      internalID: -8691289711270423657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_9
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1228
+        width: 151
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4efb7cf56fdc360800000000000000
+      internalID: 7191675071214118136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_10
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1228
+        width: 171
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bf499d5138dbd40800000000000000
+      internalID: 5601777641386736499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 895
+        width: 429
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7773e6152b69ab0800000000000000
+      internalID: -5001614273337133135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 925
+        width: 1312
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02110b640bee1b80800000000000000
+      internalID: -8422035848928620019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 353
+        width: 380
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6761e5508b62d8e90800000000000000
+      internalID: -7021913672194845066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 391
+        width: 426
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc79d137127f9860800000000000000
+      internalID: 7538869745187650805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_15
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 682
+        width: 500
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a42ae3c0c3467110800000000000000
+      internalID: 1258267641096316064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_16
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 633
+        width: 126
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eb273e226c14430800000000000000
+      internalID: 3765508616605580933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_17
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 534
+        width: 530
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd65af5fa73fbb2a0800000000000000
+      internalID: -6720510309481949477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_18
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 404
+        width: 151
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda9084188a726560800000000000000
+      internalID: 7305536270426479326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 433
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f596ef114f11eff0800000000000000
+      internalID: -8691359709489674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_20
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 437
+        width: 450
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3bcb957d43dbc10800000000000000
+      internalID: 2070869503188448198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_21
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 433
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f01b764009a20a0800000000000000
+      internalID: -6905548730025308405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_22
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 333
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612c2bf19e6561100800000000000000
+      internalID: 78345602784739862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_23
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 323
+        width: 171
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1809a96c82f01e20800000000000000
+      internalID: 3319419610254084122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_24
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 333
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fce88afaf7ff0eb0800000000000000
+      internalID: -4751306424535421705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_25
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 216
+        width: 151
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d682c623ede210bf0800000000000000
+      internalID: -359954963349362579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_26
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 192
+        width: 151
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6410b7b349b2c61d0800000000000000
+      internalID: -3356259706644790970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monastery ui_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 121
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6290bfbae4784d0800000000000000
+      internalID: -3132448515254835534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monastery ui_0: -7501451865384100230
+      monastery ui_1: 8966988357348234355
+      monastery ui_10: 5601777641386736499
+      monastery ui_11: -5001614273337133135
+      monastery ui_12: -8422035848928620019
+      monastery ui_13: -7021913672194845066
+      monastery ui_14: 7538869745187650805
+      monastery ui_15: 1258267641096316064
+      monastery ui_16: 3765508616605580933
+      monastery ui_17: -6720510309481949477
+      monastery ui_18: 7305536270426479326
+      monastery ui_19: -8691359709489674
+      monastery ui_2: -3146422986149549553
+      monastery ui_20: 2070869503188448198
+      monastery ui_21: -6905548730025308405
+      monastery ui_22: 78345602784739862
+      monastery ui_23: 3319419610254084122
+      monastery ui_24: -4751306424535421705
+      monastery ui_25: -359954963349362579
+      monastery ui_26: -3356259706644790970
+      monastery ui_27: -3132448515254835534
+      monastery ui_3: -4409758554439573664
+      monastery ui_4: -2405403887622049077
+      monastery ui_5: 2044552216012435901
+      monastery ui_6: -6347817974682191072
+      monastery ui_7: 3919640183128661427
+      monastery ui_8: -8691289711270423657
+      monastery ui_9: 7191675071214118136
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
