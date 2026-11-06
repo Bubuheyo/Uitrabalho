@@ -1,19 +1,20 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/menuInicial.uss?fileID=7433441132597879392&amp;guid=cd305c0124f14d548af6da95215827e3&amp;type=3#menuInicial"/>
+    <Style src="project://database/Assets/popup.uss?fileID=7433441132597879392&amp;guid=3e006999f508964439867618a1151c88&amp;type=3#popup"/>
     <ui:Image source="project://database/Assets/book2.png?fileID=2800000&amp;guid=f6fcb6493ca1db14a8e0f30e80abe4ec&amp;type=3#book2" style="position: absolute; background-image: none; top: -1%; left: 25%; height: 100%; width: 100%;"/>
     <ui:VisualElement style="flex-grow: 1; background-image: none; position: relative; height: auto; top: auto; width: 100%; left: auto; flex-direction: row;">
         <ui:VisualElement style="flex-grow: 1; width: 33%;"/>
         <ui:VisualElement style="flex-grow: 1;">
             <ui:VisualElement style="flex-grow: 1; height: 1%;">
                 <ui:Label text="White Clouds Ch.3" name="Label" style="min-width: 0; min-height: 0; left: 34%; bottom: -9%; rotate: -10deg;"/>
-                <ui:Label text="Mutiny in the mist" name="Label" style="min-width: 0; min-height: 0; left: 37%; bottom: 9%; rotate: -10deg;"/>
+                <ui:Label text="Mutiny in the mist" name="Label2" style="min-width: 0; min-height: 0; left: 37%; bottom: 9%; rotate: -10deg;"/>
             </ui:VisualElement>
             <ui:VisualElement style="flex-grow: 1; width: auto; height: 67%; rotate: -13deg;">
                 <ui:Button text="Save" name="Save" class="Menu_Botoes"/>
                 <ui:Button text="Storehouse" class="Menu_Botoes"/>
                 <ui:Button text="Goals" class="Menu_Botoes"/>
-                <ui:Button text="Roster" class="Menu_Botoes"/>
-                <ui:Button text="Quest" class="Menu_Botoes"/>
+                <ui:Button text="Roster" name="roster" class="Menu_Botoes"/>
+                <ui:Button text="Quest" name="Quest" class="Menu_Botoes"/>
                 <ui:Button text="Support" class="Menu_Botoes"/>
                 <ui:Button text="Calendar" class="Menu_Botoes"/>
                 <ui:Button text="Options" class="Menu_Botoes"/>
@@ -22,4 +23,5 @@
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
+    <ui:VisualElement name="popup-image" style="flex-grow: 1; width: 300px; height: 300px;"/>
 </ui:UXML>
