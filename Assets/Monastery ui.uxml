@@ -19,7 +19,7 @@
                 <ui:Button text="Calendar" name="Calendar" class="Menu_Botoes"/>
                 <ui:Button text="Options" class="Menu_Botoes"/>
                 <ui:Button text="Inventory" class="Menu_Botoes"/>
-                <ui:Button text="Guide" class="Menu_Botoes"/>
+                <ui:Button text="Guide" name="Guide" class="Menu_Botoes"/>
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

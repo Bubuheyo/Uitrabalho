@@ -22,9 +22,9 @@
     border-left-width: 3px;
     right: auto;
     min-height: auto;
+    padding-top: 6px;
+    bottom: -43px;
 }
-
-
 
 .Menu_Botoes:hover {
     -unity-background-image-tint-color: rgba(255, 255, 255, 0);

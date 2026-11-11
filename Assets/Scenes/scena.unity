@@ -133,6 +133,8 @@ GameObject:
   - component: {fileID: 756916243}
   - component: {fileID: 756916244}
   - component: {fileID: 756916245}
+  - component: {fileID: 756916246}
+  - component: {fileID: 756916247}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -236,6 +238,33 @@ MonoBehaviour:
   - {fileID: 8249369732046814298, guid: b327a9686be684b4b82447acf8a74d6d, type: 3}
   buttonName: Calendar
   imageName: Book
+--- !u!114 &756916246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756916239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21905df14d21f5b42bd7718c21295ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrocarCenaBotao
+  nomeDoBotao: Guide
+  scena: SampleScene
+--- !u!114 &756916247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756916239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9985e5b0483d4bbce5c0cc870ca51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIStateBinder
+  data: {fileID: 11400000, guid: ac2365f1a0f7189448836e0f18bc6407, type: 2}
 --- !u!1 &1505031716
 GameObject:
   m_ObjectHideFlags: 0
