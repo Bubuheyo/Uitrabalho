@@ -129,6 +129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 250416532}
   - component: {fileID: 250416531}
+  - component: {fileID: 250416534}
+  - component: {fileID: 250416533}
+  - component: {fileID: 250416535}
+  - component: {fileID: 250416536}
   m_Layer: 0
   m_Name: Monastery Ui
   m_TagString: Untagged
@@ -174,6 +178,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &250416533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250416530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a705493347859643b56fc8bf476a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Label2Changer
+--- !u!114 &250416534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250416530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c4cb9d96f878b4ba086ce768af4770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LabelChanger
+--- !u!114 &250416535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250416530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9745470d41951e43b5cf405467f74e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ImageCycler
+  images:
+  - {fileID: -5597995755193609183, guid: f6fcb6493ca1db14a8e0f30e80abe4ec, type: 3}
+  - {fileID: -8370724512974096872, guid: f70895fb3918ef6418c9edd42d9a4463, type: 3}
+  - {fileID: 3213579563246706306, guid: a209f2640bf20164a89a42bc61a2c445, type: 3}
+  - {fileID: 8249369732046814298, guid: b327a9686be684b4b82447acf8a74d6d, type: 3}
+  buttonName: Calendar
+  imageName: Book
+--- !u!114 &250416536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250416530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1f2fe39747e384492b05629bcaea1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShowImageButton
+  uiDocument: {fileID: 250416531}
+  image: {fileID: 2800000, guid: a8d6472bbf0b0c84ca970871b42f28f6, type: 3}
+  duration: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

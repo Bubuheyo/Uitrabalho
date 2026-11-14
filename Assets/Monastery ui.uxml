@@ -1,8 +1,8 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/menuInicial.uss?fileID=7433441132597879392&amp;guid=cd305c0124f14d548af6da95215827e3&amp;type=3#menuInicial"/>
     <Style src="project://database/Assets/popup.uss?fileID=7433441132597879392&amp;guid=3e006999f508964439867618a1151c88&amp;type=3#popup"/>
-    <ui:Image source="project://database/Assets/book2.png?fileID=2800000&amp;guid=f6fcb6493ca1db14a8e0f30e80abe4ec&amp;type=3#book2" name="Book" style="position: absolute; background-image: none; top: -1%; left: 25%; height: 100%; width: 100%;"/>
     <ui:VisualElement style="flex-grow: 1; background-image: none; position: relative; height: auto; top: auto; width: 100%; left: auto; flex-direction: row;">
+        <ui:Image source="project://database/Assets/book2.png?fileID=2800000&amp;guid=f6fcb6493ca1db14a8e0f30e80abe4ec&amp;type=3#book2" name="Book" style="position: absolute; background-image: none; top: -1%; left: 25%; height: 100%; width: 100%;"/>
         <ui:VisualElement style="flex-grow: 1; width: 33%;"/>
         <ui:VisualElement style="flex-grow: 1;">
             <ui:VisualElement style="flex-grow: 1; height: 1%;">
@@ -23,5 +23,5 @@
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement name="popup-image" style="flex-grow: 1; width: 300px; height: 300px;"/>
+    <ui:VisualElement name="popup-image" style="flex-grow: 1; width: 280px; height: 300px; position: absolute;"/>
 </ui:UXML>

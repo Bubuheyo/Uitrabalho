@@ -11,19 +11,16 @@ public class ShowImageButton : MonoBehaviour
     private Button button;
     private IVisualElementScheduledItem hideTask;
 
-    void Start()   // Start instead of OnEnable, so the UI is ready
+    void Start() 
     {
         var root = uiDocument.rootVisualElement;
         button = root.Q<Button>("roster");
         popup = root.Q<VisualElement>("popup-image");
 
-        if (button == null) { Debug.LogError("Button 'roster' not found"); return; }
-        if (popup == null) { Debug.LogError("VisualElement 'popup-image' not found"); return; }
-
         if (image != null)
             popup.style.backgroundImage = new StyleBackground(image);
 
-        popup.style.display = DisplayStyle.None;   // start hidden
+        popup.style.display = DisplayStyle.None;   
         button.clicked += ShowImage;
         Debug.Log("Setup OK");
     }
@@ -37,7 +34,7 @@ public class ShowImageButton : MonoBehaviour
     {
         Debug.Log("Button clicked");
         popup.style.display = DisplayStyle.Flex;
-        popup.BringToFront();   // make sure nothing is covering it
+        popup.BringToFront(); 
 
         hideTask?.Pause();
         hideTask = popup.schedule
