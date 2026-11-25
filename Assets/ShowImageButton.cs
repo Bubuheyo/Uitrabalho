@@ -19,10 +19,6 @@ public class ShowImageButton : MonoBehaviour
 
         if (image != null)
             popup.style.backgroundImage = new StyleBackground(image);
-
-        popup.style.display = DisplayStyle.None;   
-        button.clicked += ShowImage;
-        Debug.Log("Setup OK");
     }
 
     void OnDestroy()
@@ -32,13 +28,6 @@ public class ShowImageButton : MonoBehaviour
 
     private void ShowImage()
     {
-        Debug.Log("Button clicked");
-        popup.style.display = DisplayStyle.Flex;
-        popup.BringToFront(); 
-
-        hideTask?.Pause();
-        hideTask = popup.schedule
-            .Execute(() => popup.style.display = DisplayStyle.None)
-            .StartingIn((long)(duration * 1000));
+        
     }
 }

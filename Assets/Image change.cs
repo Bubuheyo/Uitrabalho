@@ -1,10 +1,9 @@
-using UnityEngine;
+ using UnityEngine;
 using UnityEngine.UIElements;
 
 [RequireComponent(typeof(UIDocument))]
 public class ImageCycler : MonoBehaviour
 {
-    [Tooltip("The four images to cycle through")]
     [SerializeField] private Sprite[] images = new Sprite[4];
 
     [SerializeField] private string buttonName = "cycle-button";
@@ -22,10 +21,6 @@ public class ImageCycler : MonoBehaviour
         displayImage = root.Q<VisualElement>(imageName);
 
         if (cycleButton == null || displayImage == null)
-        {
-            Debug.LogError("ImageCycler: Button or image element not found in UXML.");
-            return;
-        }
 
         cycleButton.clicked += OnButtonClicked;
         ShowImage(currentIndex);
@@ -44,7 +39,6 @@ public class ImageCycler : MonoBehaviour
         currentIndex = (currentIndex + 1) % images.Length;
         ShowImage(currentIndex);
     }
-
     private void ShowImage(int index)
     {
         if (images[index] == null) return;

@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 public class MainMenuController : MonoBehaviour
 {
-    public GameObject nextMenu; // drag the UI you want to open here
+    public GameObject nextMenu;
 
     void OnEnable()
     {
@@ -11,8 +11,8 @@ public class MainMenuController : MonoBehaviour
 
         root.Q<Button>("Continue").clicked += () =>
         {
-            nextMenu.SetActive(true);   // open the other UI
-            gameObject.SetActive(false); // close Main Menu
+            nextMenu.SetActive(true);   
+            gameObject.SetActive(false); 
         };
     }
 }
